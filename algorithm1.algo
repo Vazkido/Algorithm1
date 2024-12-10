@@ -1,0 +1,26 @@
+ALGORITHM algorithimcheckpoint
+VAR
+    sentenceLength,numberofwords,numberofvowels,o,u,h:INTEGER;
+    sentence:STRING;
+    sum:INTEGER :=0;
+BEGIN
+    Read(S);
+
+    WHILE (Sentence[o] <>".") DO
+        sentenceLength := sentenceLength +1;
+        o:= o + 1;
+    END_WHILE
+
+    WHILE (u <numberofwords) DO
+        IF (numberofwords[u]= " ") THEN
+        numberofwords := numberofwords = 1;
+        END_IF 
+        u := u +  1;
+    END_WHILE
+    WHILE (h < sentenceLength) DO
+        IF (sentence[h] = "a" or sentence[h] = "e" or sentence [h] = "i" or sentence[h] = "o" or sentence [h] = "u") THEN
+        numberofwords := numberofvowels + 1
+        END_OF
+        i =i + 1
+    END_WHILE
+END
